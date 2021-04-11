@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/1031240486/thumb/1.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+.camp1 {
+  font-family: 'Roboto Mono',monospace;
+  margin-top: 110px;
+  width: 155px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+.b1 {
+  font-family: 'Roboto Mono',monospace;
+  background-color: #00006f;
+  border: 3px solid #0000ae;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  display: inline;
+  transition-duration: 0.4s;
+  width: 100px;
+}
+
+.b1:hover {
+  background-color: #0000ae;
+}
+
+.result {
+  font-family: 'Roboto Mono',monospace;
+  color: white; 
+  font-size: 20px;
+}
+
+.tentativas {
+  font-family: 'Roboto Mono',monospace;
+  color: white; 
+  font-size: 20px;
+}
+
+.points {
+  font-family: 'Roboto Mono',monospace;
+  color: white; 
+  font-size: 20px;
+}
+
+.inst {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
